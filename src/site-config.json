@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Horizon General Contractor",
+    "phone": "555-gen-r90",
+    "category": "general-contractor",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  "design": {
+    "preset": {
+      "id": "general-contractor-trust-navy",
+      "categoryGroup": "general-contractor",
+      "name": "Trust Navy",
+      "recipeFile": "general-contractor/trust-navy.astro",
+      "colors": {
+        "primary": "#1E3A5F",
+        "primaryDark": "#0F1D30",
+        "primaryLight": "#c7ced7",
+        "secondary": "#1a3151",
+        "accent": "#3B82F6",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1E3A5F",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Montserrat",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "general-contractor/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Building Dreams, Restoring Homes",
+      "heroSubline": "Horizon General Contractor brings quality craftsmanship to Salt Lake Valley. Trusted for over a decade, we handle everything from historic bungalow restorations to modern condo remodels.",
+      "aboutTitle": "Rooted in Salt Lake, Built for You",
+      "aboutText": [
+        "Founded in 2012, Horizon General Contractor began with a simple mission: to bring honest, quality construction to our community. What started as a two-person operation has grown into a team of skilled craftsmen serving the entire Wasatch Front.",
+        "We approach every project with the care it deserves, whether it's preserving the character of a 1920s Avenues bungalow or updating a Sugar House ranch home for modern living. Our team takes pride in solving the unique challenges posed by Utah's climate and housing stock.",
+        "As locals ourselves, we're committed to giving back to Salt Lake City. From volunteering at Habitat for Humanity builds to sponsoring Little League teams in Draper, we believe in building up our community as much as we build homes."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Construction",
+          "description": "We specialize in solutions for Utah's freeze-thaw cycles, heavy snow loads, and dry air that can wreak havoc on homes."
+        },
+        {
+          "title": "Historic Home Experts",
+          "description": "From original hardwood restoration in The Avenues to proper brick repointing on Capitol Hill, we preserve your home's character."
+        },
+        {
+          "title": "Full-Service Convenience",
+          "description": "We handle everything from permits to final inspections, making your project smooth from start to finish."
+        },
+        {
+          "title": "Local Materials",
+          "description": "We source materials from Utah suppliers whenever possible, supporting local businesses and reducing environmental impact."
+        }
+      ],
+      "ctaHeadline": "Ready to Transform Your Space?",
+      "ctaSubline": "Schedule a free consultation to discuss your project with our Salt Lake City team."
+    },
+    "services": [
+      {
+        "slug": "whole-home-renovation",
+        "name": "Whole Home Renovation",
+        "shortDescription": "Complete home transformations that respect Utah's architectural heritage while adding modern comforts.",
+        "description": "Whether you're updating a 1950s Sugar House ranch or modernizing a downtown condo, our whole home renovations consider Salt Lake City's unique challenges. We reinforce structures to handle heavy winter snow loads, install proper vapor barriers to combat dry air shrinkage, and select materials that withstand freeze-thaw cycles.\n\nFor historic homes in The Avenues or 9th and 9th, we specialize in preserving original details like built-ins and hardwood floors while updating plumbing and electrical systems. Our team handles every aspect from design consultation to final walkthrough, ensuring your renovated home meets both your needs and local building codes.",
+        "process": [
+          "Step 1: Initial consultation to discuss your vision and assess your home's structural needs",
+          "Step 2: Custom design incorporating Utah-specific solutions for climate challenges",
+          "Step 3: Permitting and approval process with Salt Lake County",
+          "Step 4: Phased construction with weekly progress updates"
+        ],
+        "benefits": [
+          "Increased home value for Salt Lake's competitive market",
+          "Energy-efficient upgrades that reduce winter heating costs",
+          "Preserved architectural character in historic neighborhoods",
+          "Seismic retrofitting available for earthquake protection"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle lead paint in older Salt Lake homes?",
+            "answer": "We're EPA-certified in lead-safe practices and always test materials in pre-1978 homes. Containment procedures protect your family during renovation."
+          },
+          {
+            "question": "Can you work within historic district guidelines?",
+            "answer": "Yes, we've completed projects in Salt Lake's historic districts and understand approval processes with the Historic Landmark Commission."
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-remodeling",
+        "name": "Kitchen Remodeling",
+        "shortDescription": "Functional, beautiful kitchens designed for Utah's active families and entertaining needs.",
+        "description": "Salt Lake City kitchens need to withstand busy family life while handling our unique climate conditions. We install cabinetry that won't warp in dry air, choose countertops resistant to temperature fluctuations, and design layouts perfect for both everyday meals and hosting during Sundance season.\n\nFor homes in Draper's newer developments, we create sleek modern kitchens with smart storage solutions. In Provo's university-area homes, we design durable spaces that can handle student housing demands. Every kitchen includes proper ventilation to combat winter inversion air quality issues and energy-efficient appliances to reduce utility costs in our extreme seasons.",
+        "process": [
+          "Step 1: Lifestyle assessment to understand your cooking and entertaining needs",
+          "Step 2: Material selection focused on durability in Utah's climate",
+          "Step 3: Temporary kitchen setup to minimize disruption",
+          "Step 4: Professional installation with attention to detail"
+        ],
+        "benefits": [
+          "Custom storage solutions for bulk food storage common in Utah",
+          "Improved indoor air quality with proper range hood ventilation",
+          "Increased functionality for large family gatherings",
+          "Materials selected for easy cleaning after dusty summer months"
+        ],
+        "faq": [
+          {
+            "question": "How long will I be without a kitchen?",
+            "answer": "Most projects take 4-6 weeks. We set up a temporary kitchenette with microwave, fridge, and coffee station to ease the transition."
+          },
+          {
+            "question": "Do you work with local suppliers?",
+            "answer": "Yes, we partner with Salt Lake cabinetmakers and stone yards for materials that perform well in our dry climate."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Spa-like retreats designed for Utah's hard water and dry climate challenges.",
+        "description": "Utah's hard water and dry air demand special consideration in bathroom design. We install water softening systems, choose materials resistant to mineral buildup, and select fixtures that conserve water in our drought-prone region. From master suites in Sandy's family homes to guest baths in Lehi's tech corridor properties, we create functional, relaxing spaces.\n\nFor historic homes, we replicate period-appropriate tile work while updating plumbing. In modern condos, we maximize small spaces with smart storage solutions. Every bathroom includes proper ventilation to prevent mold during winter months and heated flooring options for chilly Wasatch Front mornings.",
+        "process": [
+          "Step 1: Water quality assessment and plumbing evaluation",
+          "Step 2: Design consultation focusing on your daily routines",
+          "Step 3: Material selection for durability and maintenance ease",
+          "Step 4: Careful demolition and rebuild with daily cleanup"
+        ],
+        "benefits": [
+          "Water-efficient fixtures that reduce utility bills",
+          "Mold-resistant materials for healthier indoor air",
+          "Heated floor options for cold winter mornings",
+          "Non-slip surfaces safe for all ages"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent moisture damage in our dry climate?",
+            "answer": "We use premium waterproofing membranes behind tile and recommend exhaust fans sized appropriately for Utah's winter humidity levels."
+          },
+          {
+            "question": "Can you match my historic home's original tile?",
+            "answer": "We work with specialty tile makers who recreate vintage patterns found in Salt Lake's older neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "home-additions",
+        "name": "Home Additions",
+        "shortDescription": "Thoughtful expansions that blend seamlessly with your existing home's architecture.",
+        "description": "Growing families in Salt Lake Valley often need more space without leaving their neighborhoods. We design additions that respect your home's original style, whether it's a dormer addition for an Avenues bungalow or a sunroom for a Sugar House ranch. Our structural engineers ensure foundations withstand clay soil movement common in the valley.\n\nWe handle all zoning requirements specific to your city - from Sandy's setback rules to Draper's height restrictions. Every addition considers Utah's seasonal needs: proper insulation for winter, overhangs for summer shade, and earthquake-resistant connections. For homes near the University of Utah or BYU, we create flexible spaces that can serve as guest quarters or home offices.",
+        "process": [
+          "Step 1: Zoning research and feasibility study for your property",
+          "Step 2: Architectural design matching your home's character",
+          "Step 3: Engineering for Utah soil and seismic considerations",
+          "Step 4: Construction with minimal disruption to your daily life"
+        ],
+        "benefits": [
+          "Increased living space without moving",
+          "Architectural continuity with your existing home",
+          "Energy-efficient designs that reduce heating costs",
+          "Solutions for challenging lots in established neighborhoods"
+        ],
+        "faq": [
+          {
+            "question": "How long does an addition typically take?",
+            "answer": "Most projects take 3-6 months depending on size and complexity. We provide a detailed timeline after evaluating your specific site conditions."
+          },
+          {
+            "question": "Will my addition require planning approval?",
+            "answer": "We handle all permitting with local municipalities and know the specific requirements for each city we serve in Salt Lake County."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-remodeling",
+        "name": "Exterior Remodeling",
+        "shortDescription": "Weather-resistant upgrades that protect your home from Utah's extreme elements.",
+        "description": "Salt Lake City's climate demands exteriors that can handle 100-degree summer heat and subzero winter temperatures. We replace and repair siding, trim, and roofing with materials tested in our region. For historic homes, we replicate original wood details with modern, durable alternatives. In newer developments, we install low-maintenance exteriors perfect for busy Utah families.\n\nOur roof replacements consider heavy snow loads, using proper pitch and materials to prevent ice dams. We install gutters sized for Utah's intense spring runoff and recommend cool roofing options to reduce summer cooling costs. From repointing brick on Capitol Hill homes to installing fiber cement siding in Sandy, we enhance both beauty and protection.",
+        "process": [
+          "Step 1: Comprehensive exterior evaluation identifying vulnerabilities",
+          "Step 2: Material recommendations based on your home's orientation and microclimate",
+          "Step 3: Careful protection of landscaping during work",
+          "Step 4: Quality installation with attention to weatherproofing details"
+        ],
+        "benefits": [
+          "Improved protection against winter storms and summer sun",
+          "Increased curb appeal for Salt Lake's competitive housing market",
+          "Reduced maintenance with durable materials",
+          "Energy savings through proper insulation and reflective surfaces"
+        ],
+        "faq": [
+          {
+            "question": "What roofing materials work best in our climate?",
+            "answer": "We recommend impact-resistant asphalt shingles or metal roofs with proper snow guards for most Wasatch Front homes, depending on your budget and aesthetic preferences."
+          },
+          {
+            "question": "How often should exterior wood be maintained?",
+            "answer": "In Utah's dry climate, wood trim typically needs refinishing every 3-5 years. We can recommend lower-maintenance alternatives that mimic wood's look."
+          }
+        ]
+      },
+      {
+        "slug": "basement-finishing",
+        "name": "Basement Finishing",
+        "shortDescription": "Comfortable below-grade living spaces designed for Utah's unique foundation needs.",
+        "description": "Finishing a basement in Salt Lake Valley requires special attention to moisture control and radon mitigation. We install proper vapor barriers, subfloor systems, and drainage solutions to create dry, healthy living spaces. Whether you're creating a family room in your Sandy home or an apartment for BYU students in Provo, we design basements that feel anything but underground.\n\nOur team handles all necessary permits and inspections required by Utah's building codes. We use materials resistant to potential moisture and design flexible spaces that can serve multiple purposes. For homes in areas with high water tables like parts of Draper, we include sump pumps and backup systems for peace of mind during spring runoff.",
+        "process": [
+          "Step 1: Moisture testing and radon evaluation",
+          "Step 2: Design consultation maximizing natural light and airflow",
+          "Step 3: Proper insulation and vapor barrier installation",
+          "Step 4: Finishing with moisture-resistant materials"
+        ],
+        "benefits": [
+          "Increased living space without changing your home's footprint",
+          "Proper moisture control for healthier indoor air",
+          "Flexible spaces that grow with your family's needs",
+          "Added value to your Salt Lake area home"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent basement flooding?",
+            "answer": "We evaluate your property's drainage and may recommend exterior solutions like French drains paired with interior systems for comprehensive protection."
+          },
+          {
+            "question": "Can you add an egress window for safety?",
+            "answer": "Yes, we install code-compliant egress windows that provide both emergency exits and natural light in basement bedrooms."
+          }
+        ]
+      },
+      {
+        "slug": "deck-construction",
+        "name": "Deck Construction",
+        "shortDescription": "Outdoor living spaces built to withstand Utah's dramatic temperature swings.",
+        "description": "Salt Lake's short but intense outdoor season demands decks that can survive winter snow loads and summer UV exposure. We build with materials that won't warp, crack, or splinter in our dry climate. From small Liberty Park bungalow patios to expansive Sandy backyard decks, we create outdoor spaces perfect for enjoying our mountain views.\n\nOur designs consider sun exposure, incorporating shade elements for hot summer afternoons and wind protection for breezy spring days. We use hidden fasteners and durable finishes that maintain their beauty with minimal maintenance. For homes along the benches, we engineer structures that account for slope and soil conditions. Every deck includes proper railings for safety and steps designed for snowy winters.",
+        "process": [
+          "Step 1: Site evaluation considering sun patterns and privacy needs",
+          "Step 2: Material selection based on your maintenance preferences",
+          "Step 3: Structural engineering for safety and longevity",
+          "Step 4: Construction with attention to detail and clean lines"
+        ],
+        "benefits": [
+          "Extended outdoor living season with thoughtful design",
+          "Low-maintenance materials perfect for Utah's climate",
+          "Increased home value and curb appeal",
+          "Custom features like built-in seating or planters"
+        ],
+        "faq": [
+          {
+            "question": "What decking materials hold up best in our weather?",
+            "answer": "We recommend composite decking or properly maintained cedar for most Salt Lake homes, with options ranging from budget-friendly to premium."
+          },
+          {
+            "question": "How long does a typical deck project take?",
+            "answer": "Most decks take 2-4 weeks from permit approval to completion, depending on size and complexity."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Megan T.",
+        "rating": 5,
+        "service": "Kitchen Remodeling",
+        "text": "Horizon transformed our 1960s Sugar House kitchen into a modern masterpiece while keeping the mid-century charm we love. They suggested local quartzite counters that handle our busy family and Utah's temperature swings beautifully. The team was respectful of our home and finished two days ahead of schedule.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James K.",
+        "rating": 5,
+        "service": "Home Addition",
+        "text": "We needed more space for our growing family but didn't want to leave our Avenues neighborhood. Horizon designed a second-story addition that looks like it's always been part of our 1920s bungalow. They navigated historic district approvals seamlessly and reinforced the foundation for earthquake safety - crucial in our area.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "service": "Bathroom Remodeling",
+        "text": "After years of hard water stains in our Draper home, we finally have a bathroom that stands up to Utah's water quality. Horizon installed a whole-house water softener and chose materials that resist mineral buildup. The heated floors make winter mornings bearable, and the shower's ventilation keeps moisture under control.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Exterior Remodeling",
+        "text": "The team at Horizon replaced our crumbling siding with fiber cement that looks like wood but handles Salt Lake's weather much better. They repaired our roof's ice dam damage properly and installed oversized gutters for spring runoff. Our Capitol Hill home looks better than ever and is finally protected from the elements.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Rachel M.",
+        "rating": 5,
+        "service": "Basement Finishing",
+        "text": "Our Sandy basement was a damp storage space until Horizon transformed it into a cozy family room. They addressed moisture issues we didn't even know we had and installed a radon mitigation system for safety. The space stays perfectly dry even during heavy spring rains, and the built-in shelving makes great use of awkward angles.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Thomas R.",
+        "rating": 5,
+        "service": "Deck Construction",
+        "text": "Our new Horizon-built deck is the perfect spot for summer evenings with views of the Wasatch Mountains. They designed it to handle heavy snow loads in winter and built in shade structures for hot summer days. The composite material still looks new after a full year with zero maintenance - exactly what we wanted for our busy Provo household.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Salt Lake General Contractor | Home Renovations & Repairs",
+        "description": "Trusted Salt Lake City general contractor specializing in climate-smart home renovations, additions, and historic preservation since 2012."
+      },
+      "about": {
+        "title": "About Our Salt Lake Construction Company | Horizon",
+        "description": "Learn about Horizon's local roots and commitment to quality construction in Salt Lake City's unique climate and architectural landscape."
+      },
+      "services": {
+        "title": "Salt Lake Home Renovation Services | Horizon GC",
+        "description": "Comprehensive home improvement services designed for Utah's climate, from kitchen remodels to earthquake retrofitting in Salt Lake City."
+      },
+      "contact": {
+        "title": "Contact Salt Lake's Trusted General Contractor",
+        "description": "Schedule a consultation with Horizon General Contractor for your Salt Lake Valley home renovation or repair project."
+      },
+      "reviews": {
+        "title": "Horizon General Contractor Reviews | Salt Lake City",
+        "description": "Read verified customer reviews of Horizon's general contracting services in Salt Lake City and surrounding communities."
+      },
+      "service-areas": {
+        "title": "Serving All of Salt Lake County | Horizon GC",
+        "description": "Horizon General Contractor provides quality construction services throughout Salt Lake Valley including Sandy, Draper, Lehi and Provo."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Sandy",
+        "slug": "sandy-ut",
+        "state": "UT",
+        "content": "Horizon General Contractor proudly serves Sandy, UT, a thriving community with a mix of 1980s-90s family homes. Our team specializes in renovations, additions, and repairs tailored to the unique needs of these well-established neighborhoods. With cold, snowy winters and frequent inversions, we ensure your home is prepared for the harsh Utah climate with quality insulation, roofing, and weatherproofing solutions.\n\nWhether you're updating a classic Sandy home or adding modern amenities, our expertise in handling older structures ensures your project meets current standards while preserving its charm. We understand the local building codes and weather challenges, making us the trusted choice for Sandy homeowners.",
+        "localContext": "Sandy features a mix of established family homes and growing commercial areas, with a strong sense of community.",
+        "nearbyAreas": [
+          "Draper",
+          "Midvale",
+          "Cottonwood Heights"
+        ]
+      },
+      {
+        "city": "Draper",
+        "slug": "draper-ut",
+        "state": "UT",
+        "content": "Draper, UT, is known for its newer developments spanning from the 1990s to the 2020s, and Horizon General Contractor is here to help with your construction and remodeling needs. Our services include custom home builds, kitchen and bathroom remodels, and exterior upgrades designed to withstand the cold, snowy winters and inversions typical of the area.\n\nWe take pride in working with Draper's modern homes, ensuring energy efficiency and durability. Whether you're in Daybreak or Corner Canyon, our team delivers high-quality craftsmanship tailored to your neighborhood's aesthetic and functional requirements.",
+        "localContext": "Draper is a fast-growing city with a mix of suburban neighborhoods and tech-driven developments.",
+        "nearbyAreas": [
+          "Sandy",
+          "Lehi",
+          "South Jordan"
+        ]
+      },
+      {
+        "city": "Lehi",
+        "slug": "lehi-ut",
+        "state": "UT",
+        "content": "Lehi, UT, is at the heart of Utah's tech corridor, with rapid growth in housing and commercial developments. Horizon General Contractor specializes in new construction, remodels, and additions to meet the demands of this booming area. Our team is experienced in working with the latest building technologies and materials to ensure your home or business is built to last.\n\nWith cold, snowy winters and inversions, we prioritize weather-resistant designs and energy-efficient solutions. Whether you're in Traverse Mountain or Dry Creek, we provide tailored construction services to fit your lifestyle and needs.",
+        "localContext": "Lehi is a hub for tech companies and young families, with a mix of modern and traditional housing.",
+        "nearbyAreas": [
+          "American Fork",
+          "Draper",
+          "Saratoga Springs"
+        ]
+      },
+      {
+        "city": "Provo",
+        "slug": "provo-ut",
+        "state": "UT",
+        "content": "Provo, UT, is home to Brigham Young University and a diverse range of housing options, from historic homes to modern student housing. Horizon General Contractor offers comprehensive services, including renovations, repairs, and new builds, tailored to the unique needs of Provo residents.\n\nOur team understands the challenges of Provo's cold, snowy winters and inversions, and we incorporate weatherproofing and insulation into every project. Whether you're near BYU or in the Provo Bench area, we deliver quality craftsmanship and reliable service.",
+        "localContext": "Provo combines a vibrant university atmosphere with family-friendly neighborhoods and stunning mountain views.",
+        "nearbyAreas": [
+          "Orem",
+          "Springville",
+          "Pleasant Grove"
+        ]
+      },
+      {
+        "city": "Salt Lake City",
+        "slug": "salt-lake-city-ut",
+        "state": "UT",
+        "content": "Salt Lake City, UT, is the bustling capital with a mix of historic and contemporary architecture. Horizon General Contractor provides expert construction and remodeling services for homes and businesses across the city. From downtown lofts to Sugar House bungalows, we handle projects of all sizes with precision and care.\n\nGiven the cold, snowy winters and inversions, we focus on energy-efficient upgrades and durable materials. Our team is well-versed in local building codes and historic preservation requirements, ensuring your project meets all standards.",
+        "localContext": "Salt Lake City offers a blend of urban living and outdoor recreation, with a diverse housing market.",
+        "nearbyAreas": [
+          "Millcreek",
+          "Holladay",
+          "Murray"
+        ]
+      },
+      {
+        "city": "Orem",
+        "slug": "orem-ut",
+        "state": "UT",
+        "content": "Orem, UT, known as 'Family City USA,' features a variety of residential properties, from mid-century homes to new constructions. Horizon General Contractor specializes in home renovations, additions, and repairs to enhance your living space. Our team is dedicated to quality workmanship and customer satisfaction.\n\nWith cold, snowy winters and inversions, we prioritize insulation, roofing, and weatherproofing to keep your home comfortable year-round. Whether you're near Utah Valley University or in the Cascade area, we provide reliable and affordable services.",
+        "localContext": "Orem is a family-oriented community with excellent schools and convenient access to amenities.",
+        "nearbyAreas": [
+          "Provo",
+          "Lindon",
+          "Pleasant Grove"
+        ]
+      },
+      {
+        "city": "South Jordan",
+        "slug": "south-jordan-ut",
+        "state": "UT",
+        "content": "South Jordan, UT, is a rapidly growing city with a mix of established neighborhoods and new developments. Horizon General Contractor offers custom home builds, remodels, and exterior upgrades to meet the needs of South Jordan residents. Our team is experienced in working with the latest trends and materials.\n\nGiven the cold, snowy winters and inversions, we emphasize energy efficiency and durability in every project. Whether you're in Daybreak or the Jordan Landing area, we deliver top-notch construction services tailored to your vision.",
+        "localContext": "South Jordan combines suburban charm with modern conveniences, making it a desirable place to live.",
+        "nearbyAreas": [
+          "West Jordan",
+          "Riverton",
+          "Draper"
+        ]
+      },
+      {
+        "city": "West Jordan",
+        "slug": "west-jordan-ut",
+        "state": "UT",
+        "content": "West Jordan, UT, offers a diverse range of housing options, from affordable starter homes to luxury estates. Horizon General Contractor provides comprehensive construction and remodeling services to enhance your property. Our team is skilled in handling projects of all sizes and complexities.\n\nWith cold, snowy winters and inversions, we focus on weather-resistant designs and energy-efficient solutions. Whether you're in the Copper Hills or Jordan Hills area, we ensure your home is built to last and designed for comfort.",
+        "localContext": "West Jordan is a family-friendly city with a strong sense of community and excellent recreational opportunities.",
+        "nearbyAreas": [
+          "South Jordan",
+          "Taylorsville",
+          "Kearns"
+        ]
+      },
+      {
+        "city": "Murray",
+        "slug": "murray-ut",
+        "state": "UT",
+        "content": "Murray, UT, is a centrally located city with a mix of historic and modern homes. Horizon General Contractor specializes in renovations, additions, and custom builds to meet the needs of Murray residents. Our team is committed to delivering high-quality craftsmanship and personalized service.\n\nGiven the cold, snowy winters and inversions, we prioritize insulation, roofing, and weatherproofing in every project. Whether you're near Murray Park or in the Millcreek area, we provide reliable and efficient construction services.",
+        "localContext": "Murray is known for its excellent schools, parks, and convenient access to downtown Salt Lake City.",
+        "nearbyAreas": [
+          "Holladay",
+          "Midvale",
+          "Taylorsville"
+        ]
+      },
+      {
+        "city": "Bountiful",
+        "slug": "bountiful-ut",
+        "state": "UT",
+        "content": "Bountiful, UT, is a charming city with a mix of historic and contemporary homes. Horizon General Contractor offers expert construction and remodeling services to enhance your property. Our team is experienced in working with the unique architectural styles found in Bountiful.\n\nWith cold, snowy winters and inversions, we focus on energy-efficient upgrades and durable materials. Whether you're near Bountiful Boulevard or in the foothills, we deliver quality workmanship and attentive service.",
+        "localContext": "Bountiful boasts stunning mountain views, a strong community spirit, and a rich history.",
+        "nearbyAreas": [
+          "Centerville",
+          "North Salt Lake",
+          "Woods Cross"
+        ]
+      },
+      {
+        "city": "American Fork",
+        "slug": "american-fork-ut",
+        "state": "UT",
+        "content": "American Fork, UT, is a growing community with a mix of historic and new homes. Horizon General Contractor provides comprehensive construction and remodeling services to meet the needs of American Fork residents. Our team is dedicated to quality and customer satisfaction.\n\nGiven the cold, snowy winters and inversions, we prioritize weather-resistant designs and energy-efficient solutions. Whether you're near American Fork Canyon or in the Cedar Hills area, we ensure your home is built to last and designed for comfort.",
+        "localContext": "American Fork offers a small-town feel with easy access to outdoor recreation and urban amenities.",
+        "nearbyAreas": [
+          "Lehi",
+          "Pleasant Grove",
+          "Alpine"
+        ]
+      },
+      {
+        "city": "Herriman",
+        "slug": "herriman-ut",
+        "state": "UT",
+        "content": "Herriman, UT, is one of Utah's fastest-growing cities, with a focus on modern, family-friendly neighborhoods. Horizon General Contractor specializes in new home builds, remodels, and exterior upgrades to meet the demands of Herriman residents. Our team is experienced in working with the latest building trends and materials.\n\nWith cold, snowy winters and inversions, we emphasize energy efficiency and durability in every project. Whether you're in the Rose Canyon or Blackridge area, we deliver top-notch construction services tailored to your vision.",
+        "localContext": "Herriman is known for its stunning mountain views, excellent schools, and tight-knit community.",
+        "nearbyAreas": [
+          "Riverton",
+          "South Jordan",
+          "Bluffdale"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "kitchen-remodeling": "/images/service-kitchen-remodeling.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "home-additions": "/images/service-home-additions.webp",
+      "basement-finishing": "/images/service-basement-finishing.webp",
+      "deck-construction": "/images/service-deck-construction.webp",
+      "whole-home-renovation": "/images/service-whole-home-renovation.webp",
+      "exterior-remodeling": "/images/service-exterior-remodeling.webp"
+    },
+    "servicesResponsive": {
+      "kitchen-remodeling": {
+        "src": "/images/service-kitchen-remodeling.webp",
+        "srcset": "/images/service-kitchen-remodeling-400w.webp 400w, /images/service-kitchen-remodeling-800w.webp 800w, /images/service-kitchen-remodeling-1200w.webp 1200w, /images/service-kitchen-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "home-additions": {
+        "src": "/images/service-home-additions.webp",
+        "srcset": "/images/service-home-additions-400w.webp 400w, /images/service-home-additions-800w.webp 800w, /images/service-home-additions-1200w.webp 1200w, /images/service-home-additions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "basement-finishing": {
+        "src": "/images/service-basement-finishing.webp",
+        "srcset": "/images/service-basement-finishing-400w.webp 400w, /images/service-basement-finishing-800w.webp 800w, /images/service-basement-finishing-1200w.webp 1200w, /images/service-basement-finishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-construction": {
+        "src": "/images/service-deck-construction.webp",
+        "srcset": "/images/service-deck-construction-400w.webp 400w, /images/service-deck-construction-800w.webp 800w, /images/service-deck-construction-1200w.webp 1200w, /images/service-deck-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-home-renovation": {
+        "src": "/images/service-whole-home-renovation.webp",
+        "srcset": "/images/service-whole-home-renovation-400w.webp 400w, /images/service-whole-home-renovation-800w.webp 800w, /images/service-whole-home-renovation-1200w.webp 1200w, /images/service-whole-home-renovation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-remodeling": {
+        "src": "/images/service-exterior-remodeling.webp",
+        "srcset": "/images/service-exterior-remodeling-400w.webp 400w, /images/service-exterior-remodeling-800w.webp 800w, /images/service-exterior-remodeling-1200w.webp 1200w, /images/service-exterior-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
